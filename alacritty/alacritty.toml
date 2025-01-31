@@ -25,13 +25,6 @@
         background = "0x1a1b26"
         foreground = "0xa9b1d6"
 
-[terminal.shell]
-	program = "/bin/fish"
-
-[window]
-opacity = 0.75
-blur = false
-
 [font]
 	size = 11.0
 
@@ -60,5 +53,11 @@ blur = false
         y = 0
 
 [window.padding]
-x = 20
-y = 20
+	x = 15
+	y = 15
+
+[window]
+	decorations = "Transparent"
+	dynamic_title = true
+	blur = false
+	opacity = 0.85
